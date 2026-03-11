@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/tmp/kavia/workspace/code-generation/movie-organizer-platform-239060-239075/movie_spa_frontend"
+}

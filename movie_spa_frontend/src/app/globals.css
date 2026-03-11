@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Theme Variables: Modern Light, blue/cyan dashboard */
+:root {
+  --color-primary: #111827;       /* Text color */
+  --color-secondary: #64748b;     /* Secondary text */
+  --color-accent: #3b82f6;        /* Primary blue */
+  --color-success: #06b6d4;       /* Cyan */
+  --color-error: #ef4444;
+  --color-gradient: linear-gradient(90deg, #3b82f61a 0%, #f9fafb 100%);
+  --color-background: #f9fafb;
+  --color-surface: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  min-height: 100vh;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--color-background);
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.sidebar {
+  background: var(--color-surface);
+  color: var(--color-accent);
+  border-right: 1px solid #e5e7eb;
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+  color: #fff;
+}
